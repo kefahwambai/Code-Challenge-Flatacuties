@@ -33,7 +33,6 @@ function displayAnimals() {
 
 
 function displayDetails(id) {
-    alert(id)
     fetch('http://localhost:3000/characters')
     .then(response => response.json())
     .then(data => {
@@ -66,6 +65,7 @@ event.preventDefault(); //prevention of auto submission of the form
 // let IdNumber = document.getElementById('inputnumb').value
 let Name = document.getElementById('inputname').value
 let ImageURL = document.getElementById('image_url').value
+let Votes = document.getElementById('inputnumb').value
 
 fetch('http://localhost:3000/characters', {
     method: 'POST',
@@ -75,7 +75,9 @@ fetch('http://localhost:3000/characters', {
     body: JSON.stringify({
         
         name:Name,
-        image:ImageURL
+        image:ImageURL,
+        votes:Votes
+
     })
     
 }).then(response =>response.json()).then((data) => console.log(data))
