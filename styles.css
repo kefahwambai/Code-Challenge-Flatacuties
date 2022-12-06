@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Geo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Slim&display=swap');
+
+
+
+#body {
+   position: relative;    
+   align-items:center;
+   justify-content: center;
+   text-align: center;
+   margin: auto;
+   padding: 20px;
+   text-decoration: none;
+   height: 100vh;
+} 
+
+
+header {
+   display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    font-family: 'Londrina Sketch', cursive;
+    color:cornflowerblue;
+    ;    
+ }
+
+ #btnView {
+    padding: 20px;
+    margin-top: auto;
+    background-color:lightgray;
+    
+    font-family: 'Gruppo', cursive;
+    font-weight: bolder;
+    
+    
+ }
+
+ #btn3 {
+   padding: 10px;
+   margin-top: auto;
+   background-color:lightgray;
+   border-radius: 10px;   
+   font-family: 'Gruppo', cursive;
+   font-weight: bolder;
+   
+   
+}
+ #buttn {
+    position: relative;    
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    width: 250px;
+    height: 200px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 100px;
+    
+    
+ }
+
+ /* #buttn24 {
+   position: relative;    
+   align-items:center;
+   justify-content: center;
+   text-align: center;
+   width: 250px;
+   height: 200px;
+   margin: auto;
+   padding: 20px;
+   margin-top: 5px;
+ } */
+
+ button a {
+    text-decoration: none;
+    color:black
+ }
+
+ #output {
+    position: relative;    
+    width: 30%;;
+    margin: auto;
+    padding: 20px;
+    text-decoration: none;
+    background-color:white
+
+   }
+
+ li {
+    margin: 10px;
+    list-style: none;
+    text-decoration: none;
+ }
+
+ ul {
+    text-align:center;
+    text-decoration: none;
+  
+ }
+
+ h2 {
+    text-align: center;
+   
+    font-size: 50px;
+    padding: 20px;
+    
+ }
+
+#outter {
+    position: relative;    
+    margin: auto;
+    padding: 20px;
+   
+    text-decoration: none;
+    
+}
+
+#btn2 {
+   padding: 20px;
+   margin-top: auto;
+   background-color:lightgray;
+   
+   font-family: 'Gruppo', cursive;
+   font-weight: bolder;
+   
+    
+}
+
+#btnAdd {
+   padding: 15px;
+   margin-top: 50px;
+   background-color:white;
+   font-family: 'Gruppo', cursive;
+   font-weight:900;
+   font-size: 20px; 
+}
+
+#btnAdd a:hover {
+   color:red;
+}
+
+
+#section {
+   position: relative;    
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    font-size: 25px;
+    font-family: 'Barriecito', cursive;
+    
+}
+
+a {
+   text-decoration: none;
+}
+
+#section a:hover {
+   color:brown;
+}
+
+#formSection {
+   position: relative;    
+   display: list-item;
+   align-items:center;
+   justify-content: center;
+   text-align: center;
+   width: 100%;
+   height: 100vh;
+   margin: auto;
+   display: flex;
+   font-size: 25px;
+   font-family: 'Nova Slim', cursive;
+   
+   
+}
+
+#inputnumb {
+padding: 10px;
+width: 30px;
+}
+
+#inputname {
+   padding: 10px;
+   width: 180px; 
+}
+
+#image_url {
+   padding: 10px;
+   width: 300px; 
+}
+
+#btnBack {
+   padding: 15px;
+   margin-top: 50px;
+   background-color:lightgray;
+   font-family: 'Gruppo', cursive;
+   font-weight:900;
+   
+}
+
+#btnView a:hover {
+   color:white;
+}
+
+#btn2 a:hover {
+   color:white;
+}

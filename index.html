@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="styles.css" rel="Stylesheet">
+    <title>Flatacuties</title>
+</head>
+<body id="body">
+    <header>
+        Flatacuties App
+    </header>
+       
+    <div id="outter">
+        <div id="buttn">
+            <button id="btnView" target="_blank" type="submit"><a href="#section">View Animals</a></button>
+            <button id="btn2" target="_blank" type="submit"><a href="#formSection">Add Animals</a></button>
+            
+        </div>
+      <section id="formSection">
+            <div id="form">
+                <form id="addAnimals" method="post">
+                    <!-- <label for="Id">Id</label>
+                    <input type="number" id="inputnumb" name="inputname"/> -->
+                    <label for="name">Name</label>
+                    <input type="text" id="inputname" name="name"/>
+                    <label for="name">Image URL</label>
+                    <input type="text" id="image_url" name="image_url"/>
+                    <button type="submit" id="btnAdd"><a>Add</a></button>
+                </form>
+                <button id="btnBack"><a href='http://127.0.0.1:5500/'>Back</a></button>
+            </div>
+       </section>
+        <section id="section">
+             <div id="output"></div>
+        </section>
+    </div>
+    <script  src="index.js"></script>
+</body>
+</html>
