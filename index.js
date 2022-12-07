@@ -23,9 +23,6 @@ function displayAnimals() {
 });
 
 }
-// const buttn = document.querySelector('button');
-
-// buttn.addEventListener('click', displayAnimals);
 
 
 // Here the developer  creates a function that fetches certian arrays from the server and renders them to the above
